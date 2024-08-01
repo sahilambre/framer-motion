@@ -1,5 +1,5 @@
 import React from "react";
-import { motion } from "framer-motion";
+import { motion, MotionConfig } from "framer-motion";
 const Gestures = () => {
   return (
     <div
@@ -17,10 +17,10 @@ const Gestures = () => {
         }}
         whileTap={{
           scale: 0.95,
-          rotate: "2.5deg",
+          rotate: "2.5",
         }}
         transition={{
-          duration: 0.5,
+          duration: 0.125,
           ease: "easeInOut",
         }}
       >
@@ -33,7 +33,7 @@ const Gestures = () => {
         }}
         whileTap={{
           scale: 0.85,
-          rotate: "-2.5deg",
+          rotate: "2.5deg",
         }}
         transition={{
           duration: 0.125,
